@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log-in/Register</title>
+    <link rel="stylesheet" href="authenticationcss.css">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body class="window">
+    <div class="row m-5">
+      <button class="col m-2 btn btn-primary" id="login_button">Sign in</button>
+      <button class="col m-2 btn btn-primary" id="register_button">Sign up</button>
+    </div>
+    <div>
+      <div id="login" class="ms-5 p-5">
+        <div class="card w-50 justify-content-center p-5 bg-primary bg-opacity-10 shadow-lg" style="height: 360px; margin-left: 500px;">
+          <form class="inputs">
+            <h1>WELCOME BACK</h1>
+            <small>Enter registered mail-id and password </small>
+            <input 
+              type="email"
+              class="input-field-form-check"
+              placeholder="Email"
+              required
+            />
+            <input
+              type="text"
+              class="input-field-form-check"
+              placeholder="Password"
+              required
+            />
+            <br />
+            <a href="#" target="_blank" style="color: black;">Forgot Password</a>
+            <br />
+            <button class="btn btn-dark" style="float: right">login</button>
+          </form>
+        </div>
+      </div>
+      <div id="register" class="ms-5 p-5">
+          <div class="card w-50 justify-content-center p-5 bg-primary bg-opacity-10 shadow-lg" style="height: 360px;margin-left: 500px;">
+            <form class="inputs">
+                <h1>Create an Account</h1>
+                <small>Enter valid mail-id and password</small><br />
+                <input
+                  type="email"
+                  class="input-field-form-check1"
+                  placeholder="Email"
+                  required
+                />
+                <input
+                  type="text"
+                  class="input-field-form-check1"
+                  placeholder="Password"
+                  required
+                />
+                <input
+                  type="text"
+                  class="input-field-form-check1"
+                  placeholder="Confirm Password"
+                  required
+                /><br />
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="cb"
+                  />
+                  <label class="form-check-label" for="cb"
+                    >You agree to our terms of service & privacy policy</label
+                  >
+                </div>
+                <button class="btn btn-dark" style="float: right">
+                  register
+                </button>
+              </form>
+          </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="authenticationjs.js"></script>
+  </body>
+</html>

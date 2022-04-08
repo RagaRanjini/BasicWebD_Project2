@@ -7,4 +7,4 @@
  Uploaded png files are screenshots of the obtained output , jpeg files are resources used in the development of the above mentioned web pages .
  profile.jpg is a picture used as a profile in profile page .
  
- { Updation from LaravelProject_Activity1 : authentication has been included }
+ { Updation from BasicWebD_Project1 : authentication has been included }

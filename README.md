@@ -7,4 +7,4 @@
  Uploaded png files are screenshots of the obtained output , jpeg files are resources used in the development of the above mentioned web pages .
  profile.jpg is a picture used as a profile in profile page .
  
- Make sure bootstrap is installed in the system and these files are stored in the same bootstrap folder within which css and js folder are present .
+ { Updation from LaravelProject_Activity1 : authentication has been included }
